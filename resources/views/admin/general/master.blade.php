@@ -1,0 +1,8 @@
+@include('admin.general.header')
+@include('admin.general.chatbox')
+@include('admin.general.slidebar-right')
+@include('admin.general.top')
+@include('admin.general.menu')
+@yield('content')
+@include('admin.general.footer')
+@include('admin.general.theme')
