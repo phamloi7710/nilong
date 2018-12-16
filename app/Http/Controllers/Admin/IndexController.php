@@ -10,4 +10,8 @@ class IndexController extends Controller
     public function getIndex(){
     	return view('admin.index');
     }
+    public function getFileManagement()
+    {
+    	return view('admin.pages.laravel-filemanager.index1');
+    }
 }

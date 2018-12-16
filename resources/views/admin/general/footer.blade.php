@@ -1,43 +1,36 @@
 </div>
-<!-- WIDGETS -->
-            <script type="text/javascript" src="{{url('')}}/assets/admin/bootstrap/js/bootstrap.js"></script>
-            <!-- Bootstrap Dropdown -->
-            <!-- <script type="text/javascript" src="{{url('')}}/assets/admin/widgets/dropdown/dropdown.js"></script> -->
-            <!-- Bootstrap Tooltip -->
-            <!-- <script type="text/javascript" src="{{url('')}}/assets/admin/widgets/tooltip/tooltip.js"></script> -->
-            <!-- Bootstrap Popover -->
-            <!-- <script type="text/javascript" src="{{url('')}}/assets/admin/widgets/popover/popover.js"></script> -->
-            <!-- Bootstrap Progress Bar -->
-            <script type="text/javascript" src="{{url('')}}/assets/admin/widgets/progressbar/progressbar.js"></script>
-            <!-- Bootstrap Buttons -->
-            <!-- <script type="text/javascript" src="{{url('')}}/assets/admin/widgets/button/button.js"></script> -->
-            <!-- Bootstrap Collapse -->
-            <!-- <script type="text/javascript" src="{{url('')}}/assets/admin/widgets/collapse/collapse.js"></script> -->
-            <!-- Superclick -->
-            <script type="text/javascript" src="{{url('')}}/assets/admin/widgets/superclick/superclick.js"></script>
-            <!-- Input switch alternate -->
-            <script type="text/javascript" src="{{url('')}}/assets/admin/widgets/input-switch/inputswitch-alt.js"></script>
-            <!-- Slim scroll -->
-            <script type="text/javascript" src="{{url('')}}/assets/admin/widgets/slimscroll/slimscroll.js"></script>
-            <!-- Slidebars -->
-            <script type="text/javascript" src="{{url('')}}/assets/admin/widgets/slidebars/slidebars.js"></script>
-            <script type="text/javascript" src="{{url('')}}/assets/admin/widgets/slidebars/slidebars-demo.js"></script>
-            <!-- PieGage -->
-            <script type="text/javascript" src="{{url('')}}/assets/admin/widgets/charts/piegage/piegage.js"></script>
-            <script type="text/javascript" src="{{url('')}}/assets/admin/widgets/charts/piegage/piegage-demo.js"></script>
-            <!-- Screenfull -->
-            <script type="text/javascript" src="{{url('')}}/assets/admin/widgets/screenfull/screenfull.js"></script>
-            <!-- Content box -->
-            <script type="text/javascript" src="{{url('')}}/assets/admin/widgets/content-box/contentbox.js"></script>
-            <!-- Overlay -->
-            <script type="text/javascript" src="{{url('')}}/assets/admin/widgets/overlay/overlay.js"></script>
-            <!-- Widgets init for demo -->
-            <script type="text/javascript" src="{{url('')}}/assets/admin/js-init/widgets-init.js"></script>
-            <!-- Theme layout -->
-            <script type="text/javascript" src="{{url('')}}/assets/admin/themes/admin/layout.js"></script>
-            <!-- Theme switcher -->
-            <script type="text/javascript" src="{{url('')}}/assets/admin/widgets/theme-switcher/themeswitcher.js"></script>
+</div>
+</div>
         </div>
-        
+<script data-cfasync="false" src="{{url('')}}/assets/admin/email-decode.min.js"></script><script type="text/javascript" src="{{url('')}}/assets/admin/jquery/js/jquery.min.js"></script>
+        <script type="text/javascript" src="{{url('')}}/assets/admin/jquery-ui/js/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="{{url('')}}/assets/admin/popper.js/js/popper.min.js"></script>
+        <script type="text/javascript" src="{{url('')}}/assets/admin/bootstrap/js/bootstrap.min.js"></script>
+        <!-- jquery slimscroll js -->
+        <script type="text/javascript" src="{{url('')}}/assets/admin/jquery-slimscroll/js/jquery.slimscroll.js"></script>
+        <!-- modernizr js -->
+        <script type="text/javascript" src="{{url('')}}/assets/admin/modernizr/js/modernizr.js"></script>
+        <!-- Chart js -->
+        <script type="text/javascript" src="{{url('')}}/assets/admin/chart.js/js/Chart.js"></script>
+        <!-- amchart js -->
+        <script src="{{url('')}}/assets/admin/pages/widget/amchart/amcharts.js"></script>
+        <script src="{{url('')}}/assets/admin/pages/widget/amchart/serial.js"></script>
+        <script src="{{url('')}}/assets/admin/pages/widget/amchart/light.js"></script>
+        <script src="{{url('')}}/assets/admin/js/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script type="text/javascript" src="{{url('')}}/assets/admin/js/SmoothScroll.js"></script>
+        <script src="{{url('')}}/assets/admin/js/pcoded.min.js"></script>
+        <!-- custom js -->
+        <script src="{{url('')}}/assets/admin/js/vartical-layout.min.js"></script>
+        <script type="text/javascript" src="{{url('')}}/assets/admin/pages/dashboard/custom-dashboard.js"></script>
+        <script type="text/javascript" src="{{url('')}}/assets/admin/js/script.min.js"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            
+            gtag('config', 'UA-23581568-13');
+        </script>
     </body>
 </html>

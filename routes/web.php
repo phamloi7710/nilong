@@ -1,20 +1,13 @@
 <?php
-
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
-
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('', 'Admin\LoginController@getLogin')->name('getLoginAdmin');
-Route::group(['prefix'=>'admin'], function(){
+Route::get('admin/login.html', 'Admin\LoginController@getLogin')->name('getLoginAdmin');
+Route::post('admin/login.html', 'Admin\LoginController@postLogin')->name('postLoginAdmin');
+Route::get('admin/logout','Admin\LoginController@getLogout')->name('logout');
+Route::group(['prefix'=>'admin', 'middleware'=>'checkRoleAdmin'], function(){
+	Route::get('uploads', '\UniSharp\LaravelFilemanager\Controllers\LfmController@show');
+    Route::post('uploads/upload', '\UniSharp\LaravelFilemanager\Controllers\UploadController@upload');
 	Route::get('', 'Admin\IndexController@getIndex')->name('getIndexAdmin');
+	Route::get('image-management.html', 'Admin\IndexController@getFileManagement')->name('getFileManagement');
 });
