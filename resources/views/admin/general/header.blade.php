@@ -1,72 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="loading" lang="en" data-textdirection="ltr">
     <head>
-        <title>Adminty - Premium Admin Template by Colorlib </title>
-        <!-- HTML5 Shim and Respond.js IE10 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 10]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
-        <!-- Meta -->
-        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="description" content="#">
-        <meta name="keywords" content="Admin , Responsive, Landing, Bootstrap, App, Template, Mobile, iOS, Android, apple, creative app">
-        <meta name="author" content="#">
-        <!-- Favicon icon -->
-        <link rel="icon" href="{{url('')}}/assets/admin/images/favicon.ico" type="image/x-icon">
-        <!-- Google font-->
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
-        <!-- Required Fremwork -->
-        <link rel="stylesheet" type="text/css" href="{{url('')}}/assets/admin/bootstrap/css/bootstrap.min.css">
-        <!-- feather Awesome -->
-        <link rel="stylesheet" type="text/css" href="{{url('')}}/assets/admin/icon/feather/css/feather.css">
-        <!-- Style.css -->
-        <link rel="stylesheet" type="text/css" href="{{url('')}}/assets/admin/css/style.css">
-        <link rel="stylesheet" type="text/css" href="{{url('')}}/assets/admin/css/jquery.mCustomScrollbar.css">
+        <meta name="description" content="Modern admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities with bitcoin dashboard.">
+        <meta name="keywords" content="admin template, modern admin template, dashboard template, flat admin template, responsive admin template, web app, crypto dashboard, bitcoin dashboard">
+        <meta name="author" content="PIXINVENT">
+        <title>@yield('title')</title>
+        <link rel="apple-touch-icon" href="{{url('')}}/assets/admin/app-assets/images/ico/apple-icon-120.png">
+        <link rel="shortcut icon" type="image/x-icon" href="{{url('')}}/assets/admin/app-assets/images/ico/favicon.ico">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Quicksand:300,400,500,700"
+            rel="stylesheet">
+        <link href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css"
+            rel="stylesheet">
+        <!-- BEGIN VENDOR CSS-->
+        <link rel="stylesheet" type="text/css" href="{{url('')}}/assets/admin/app-assets/css/vendors.css">
+        <link rel="stylesheet" type="text/css" href="{{url('')}}/assets/admin/app-assets/vendors/css/weather-icons/climacons.min.css">
+        <link rel="stylesheet" type="text/css" href="{{url('')}}/assets/admin/app-assets/fonts/meteocons/style.css">
+        <link rel="stylesheet" type="text/css" href="{{url('')}}/assets/admin/app-assets/vendors/css/charts/morris.css">
+        <link rel="stylesheet" type="text/css" href="{{url('')}}/assets/admin/app-assets/vendors/css/charts/chartist.css">
+        <link rel="stylesheet" type="text/css" href="{{url('')}}/assets/admin/app-assets/vendors/css/charts/chartist-plugin-tooltip.css">
+        <!-- END VENDOR CSS-->
+        <!-- BEGIN MODERN CSS-->
+        <link rel="stylesheet" type="text/css" href="{{url('')}}/assets/admin/app-assets/css/app.css">
+        <!-- END MODERN CSS-->
+        <!-- BEGIN Page Level CSS-->
+        <link rel="stylesheet" type="text/css" href="{{url('')}}/assets/admin/app-assets/css/core/menu/menu-types/vertical-content-menu.css">
+        <link rel="stylesheet" type="text/css" href="{{url('')}}/assets/admin/app-assets/css/core/colors/palette-gradient.css">
+        <link rel="stylesheet" type="text/css" href="{{url('')}}/assets/admin/app-assets/fonts/simple-line-icons/style.css">
+        <link rel="stylesheet" type="text/css" href="{{url('')}}/assets/admin/app-assets/css/core/colors/palette-gradient.css">
+        <link rel="stylesheet" type="text/css" href="{{url('')}}/assets/admin/app-assets/css/pages/timeline.css">
+        <link rel="stylesheet" type="text/css" href="{{url('')}}/assets/admin/app-assets/css/pages/dashboard-ecommerce.css">
+        <!-- END Page Level CSS-->
+        <!-- BEGIN Custom CSS-->
+        <link rel="stylesheet" type="text/css" href="{{url('')}}/assets/admin/assets/css/style.css">
+        <!-- END Custom CSS-->
+        <link rel="stylesheet" type="text/css" href="{{url('')}}/assets/admin/app-assets/vendors/css/tables/jsgrid/jsgrid-theme.min.css">
+        <link rel="stylesheet" type="text/css" href="{{url('')}}/assets/admin/app-assets/vendors/css/tables/jsgrid/jsgrid.min.css">
     </head>
-    <body>
-        <!-- Pre-loader start -->
-        <!-- <div class="theme-loader">
-            <div class="ball-scale">
-                <div class='contain'>
-                    <div class="ring">
-                        <div class="frame"></div>
-                    </div>
-                    <div class="ring">
-                        <div class="frame"></div>
-                    </div>
-                    <div class="ring">
-                        <div class="frame"></div>
-                    </div>
-                    <div class="ring">
-                        <div class="frame"></div>
-                    </div>
-                    <div class="ring">
-                        <div class="frame"></div>
-                    </div>
-                    <div class="ring">
-                        <div class="frame"></div>
-                    </div>
-                    <div class="ring">
-                        <div class="frame"></div>
-                    </div>
-                    <div class="ring">
-                        <div class="frame"></div>
-                    </div>
-                    <div class="ring">
-                        <div class="frame"></div>
-                    </div>
-                    <div class="ring">
-                        <div class="frame"></div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <!-- Pre-loader end -->
-        <div id="pcoded" class="pcoded">
-    <div class="pcoded-overlay-box"></div>
-    <div class="pcoded-container navbar-wrapper">
-        
+    

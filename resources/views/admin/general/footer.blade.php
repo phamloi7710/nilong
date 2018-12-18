@@ -1,36 +1,34 @@
 </div>
-</div>
-</div>
         </div>
-<script data-cfasync="false" src="{{url('')}}/assets/admin/email-decode.min.js"></script><script type="text/javascript" src="{{url('')}}/assets/admin/jquery/js/jquery.min.js"></script>
-        <script type="text/javascript" src="{{url('')}}/assets/admin/jquery-ui/js/jquery-ui.min.js"></script>
-        <script type="text/javascript" src="{{url('')}}/assets/admin/popper.js/js/popper.min.js"></script>
-        <script type="text/javascript" src="{{url('')}}/assets/admin/bootstrap/js/bootstrap.min.js"></script>
-        <!-- jquery slimscroll js -->
-        <script type="text/javascript" src="{{url('')}}/assets/admin/jquery-slimscroll/js/jquery.slimscroll.js"></script>
-        <!-- modernizr js -->
-        <script type="text/javascript" src="{{url('')}}/assets/admin/modernizr/js/modernizr.js"></script>
-        <!-- Chart js -->
-        <script type="text/javascript" src="{{url('')}}/assets/admin/chart.js/js/Chart.js"></script>
-        <!-- amchart js -->
-        <script src="{{url('')}}/assets/admin/pages/widget/amchart/amcharts.js"></script>
-        <script src="{{url('')}}/assets/admin/pages/widget/amchart/serial.js"></script>
-        <script src="{{url('')}}/assets/admin/pages/widget/amchart/light.js"></script>
-        <script src="{{url('')}}/assets/admin/js/jquery.mCustomScrollbar.concat.min.js"></script>
-        <script type="text/javascript" src="{{url('')}}/assets/admin/js/SmoothScroll.js"></script>
-        <script src="{{url('')}}/assets/admin/js/pcoded.min.js"></script>
-        <!-- custom js -->
-        <script src="{{url('')}}/assets/admin/js/vartical-layout.min.js"></script>
-        <script type="text/javascript" src="{{url('')}}/assets/admin/pages/dashboard/custom-dashboard.js"></script>
-        <script type="text/javascript" src="{{url('')}}/assets/admin/js/script.min.js"></script>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            
-            gtag('config', 'UA-23581568-13');
-        </script>
+        <!-- ////////////////////////////////////////////////////////////////////////////-->
+        <footer class="footer footer-static footer-light navbar-border">
+            <p class="clearfix blue-grey lighten-2 text-sm-center mb-0 px-2">
+                <span class="float-md-left d-block d-md-inline-block">Copyright &copy; 2018 <a class="text-bold-800 grey darken-2" href="https://themeforest.net/user/pixinvent/portfolio?ref=pixinvent"
+                    target="_blank">PIXINVENT </a>, All rights reserved. </span>
+                <span class="float-md-right d-block d-md-inline-blockd-none d-lg-block">Hand-crafted & Made with <i class="ft-heart pink"></i></span>
+            </p>
+        </footer>
+        <!-- BEGIN VENDOR JS-->
+        <script src="{{url('')}}/assets/admin/app-assets/vendors/js/vendors.min.js" type="text/javascript"></script>
+        <!-- BEGIN VENDOR JS-->
+        <!-- BEGIN PAGE VENDOR JS-->
+        <script src="{{url('')}}/assets/admin/app-assets/vendors/js/ui/headroom.min.js" type="text/javascript"></script>
+        <script src="{{url('')}}/assets/admin/app-assets/vendors/js/charts/chartist.min.js" type="text/javascript"></script>
+        <script src="{{url('')}}/assets/admin/app-assets/vendors/js/charts/chartist-plugin-tooltip.min.js"
+            type="text/javascript"></script>
+        <script src="{{url('')}}/assets/admin/app-assets/vendors/js/charts/raphael-min.js" type="text/javascript"></script>
+        <script src="{{url('')}}/assets/admin/app-assets/vendors/js/charts/morris.min.js" type="text/javascript"></script>
+        <script src="{{url('')}}/assets/admin/app-assets/vendors/js/timeline/horizontal-timeline.js" type="text/javascript"></script>
+        <!-- END PAGE VENDOR JS-->
+        <!-- BEGIN MODERN JS-->
+        <script src="{{url('')}}/assets/admin/app-assets/js/core/app-menu.js" type="text/javascript"></script>
+        <script src="{{url('')}}/assets/admin/app-assets/js/core/app.js" type="text/javascript"></script>
+        <script src="{{url('')}}/assets/admin/app-assets/js/scripts/customizer.js" type="text/javascript"></script>
+        <!-- END MODERN JS-->
+        <!-- BEGIN PAGE LEVEL JS-->
+        <script src="{{url('')}}/assets/admin/app-assets/js/scripts/pages/dashboard-ecommerce.js" type="text/javascript"></script>
+        <script src="{{url('')}}/assets/admin/app-assets/vendors/js/tables/jsgrid/jsgrid.min.js" type="text/javascript"></script>
+        <script src="{{url('')}}/assets/admin/app-assets/vendors/js/tables/jsgrid/griddata.js" type="text/javascript"></script>
+        <script src="{{url('')}}/assets/admin/app-assets/js/scripts/tables/jsgrid/jsgrid.js" type="text/javascript"></script>
     </body>
 </html>

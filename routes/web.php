@@ -10,4 +10,11 @@ Route::group(['prefix'=>'admin', 'middleware'=>'checkRoleAdmin'], function(){
     Route::post('uploads/upload', '\UniSharp\LaravelFilemanager\Controllers\UploadController@upload');
 	Route::get('', 'Admin\IndexController@getIndex')->name('getIndexAdmin');
 	Route::get('image-management.html', 'Admin\IndexController@getFileManagement')->name('getFileManagement');
+	Route::group(['prefix'=>'category'], function(){
+		// Route::get('list', 'Admin\ProductController@getListCate')->name('getListCateAdmin');
+		Route::get('list', function () {
+    return view('admin.pages.product.cate.list');
+});
+		Route::match(['get', 'post'], '/grid_data', "Admin\ProductController@getListCate");
+	});
 });
